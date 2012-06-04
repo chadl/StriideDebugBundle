@@ -1,0 +1,11 @@
+parameters:
+#    striide_debug.example.class: Striide\DebugBundle\Example
+
+services:
+#    striide_debug.example:
+#        class: %striide_debug.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]
+  striide_debug.twig.debug.extension:
+    class: Striide\DebugBundle\Extension\TwigDebugExtension
+    tags:
+      - { name: twig.extension }

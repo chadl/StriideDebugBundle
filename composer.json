@@ -1,0 +1,24 @@
+{
+	"name": "striide/debug-bundle",
+	"type": "symfony-bundle",
+	"description": "Useful Debug Features.",
+	"keywords": ["symfony2", "utility", "debug"],
+	"homepage": "https://github.com/chadl/StriideDebugBundle.git",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Chad Lindstrom",
+			"email": "chad.lindstrom@gmail.com"
+		}
+	],
+	"require": {
+		"php": ">=5.3.2"
+	},
+	"minimum-stability": "dev",
+	"autoload": {
+		"psr-0": {
+			"Striide\\DebugBundle": ""
+		}
+	},
+	"target-dir": "Striide/StriideDebugBundle"
+}

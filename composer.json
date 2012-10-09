@@ -20,5 +20,5 @@
 			"Striide\\DebugBundle": ""
 		}
 	},
-	"target-dir": "StriideDebugBundle"
+	"target-dir": "Striide/DebugBundle/StriideDebugBundle"
 }
